@@ -72,3 +72,32 @@ enum grades2 {
 };
 console.log(grades2.Average);
 // => 60
+
+
+// Objects
+
+const user: {id: number, name: string} = {
+    id: 1,
+    name: "John",
+};
+
+// if instead we write `id: "ef887x"`, it gives us an error
+
+// However those lines above seems messy, and here is what we can do
+
+// define the type before,
+type Book = {
+    id: string,
+    title: string,
+    year: number,
+    isBestSeller: boolean
+}
+
+// then use is here
+const myBook: Book = {
+    id: "87ef2",
+    title: "my book title",
+    year: 2021,
+    isBestSeller: 29/3 === 12,
+}
+

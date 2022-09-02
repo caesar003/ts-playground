@@ -53,3 +53,15 @@ var grades2;
 ;
 console.log(grades2.Average);
 // => 60
+// Objects
+const user = {
+    id: 1,
+    name: "John",
+};
+// then use is here
+const myBook = {
+    id: "87ef2",
+    title: "my book title",
+    year: 2021,
+    isBestSeller: 29 / 3 === 12,
+};
