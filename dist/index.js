@@ -75,3 +75,8 @@ function addNum(x, y) {
     return x + y;
 }
 const ad = (x, y) => x + y;
+const user1 = {
+    id: 1, name: "John"
+};
+// this line below gives us an error
+// user1.id = 6;

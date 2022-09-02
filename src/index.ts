@@ -118,4 +118,22 @@ function addNum (x: number, y: number){
 
 const ad = (x: number, y: number) => x + y;
 
+// Interfaces
+/**
+ * is a data structure, something like javascript
+ * object, that tells compiler about data types 
+ * of certain object
+ */
 
+interface UserInterface {
+    readonly id: number
+    name: string
+    age?: number
+}
+
+const user1: UserInterface = {
+    id: 1, name: "John"
+}
+
+// this line below gives us an error
+// user1.id = 6;
