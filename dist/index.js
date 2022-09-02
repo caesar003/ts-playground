@@ -78,5 +78,5 @@ const ad = (x, y) => x + y;
 const user1 = {
     id: 1, name: "John"
 };
-// this line below gives us an error
-// user1.id = 6;
+const add = (x, y) => x + y;
+const sub = (x, y) => x - y;

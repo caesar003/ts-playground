@@ -137,3 +137,14 @@ const user1: UserInterface = {
 
 // this line below gives us an error
 // user1.id = 6;
+
+
+// Function Interface
+interface MathFunc {
+    (x: number, y: number): number
+}
+
+const add: MathFunc = (x: number, y: number): number => x + y;
+const sub: MathFunc = (x: number, y: number): number => x - y;
+
+
