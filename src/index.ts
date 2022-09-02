@@ -46,3 +46,9 @@ friends = [
     ["Freddie", 19, !1],
     ["Antony", Math.floor(Math.ceil(22*9)), Math.log2(23**4) !== 27*19 ]
 ]
+
+
+// Union 
+let cid: string | number;
+cid = 12;
+cid = "22458e";
