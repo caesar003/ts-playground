@@ -80,11 +80,13 @@ const user1 = {
 };
 const add = (x, y) => x + y;
 const sub = (x, y) => x - y;
-// Classes
 class Person {
     constructor(id, name) {
         this.id = id;
         this.name = name;
+    }
+    register() {
+        return "";
     }
 }
 const oj = new Person(3, "Jessica");
@@ -101,4 +103,4 @@ console.log(oj.id);
  * and last, protected which only accessible within the class and within other classes which inherits it )
  * our last console.log(oj.id) would not work,
  *
- */ 
+ */

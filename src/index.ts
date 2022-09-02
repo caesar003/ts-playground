@@ -149,12 +149,20 @@ const sub: MathFunc = (x: number, y: number): number => x - y;
 
 
 // Classes
-class Person {
+interface personInterface {
+    id: number
+    name: string
+    register():string
+}
+class Person implements personInterface {
     id: number
     name: string
     constructor(id: number, name: string){
         this.id = id
         this.name = name
+    }
+    register(): string {
+        return "";
     }
 }
 
@@ -175,3 +183,4 @@ console.log(oj.id);
  * our last console.log(oj.id) would not work, 
  * 
  */
+
