@@ -159,3 +159,19 @@ class Person {
 }
 
 const oj = new Person(3, "Jessica");
+
+// Data Modifier
+
+console.log(oj.id);
+/**
+ * that line above would give us 3,
+ * however, if we change 
+ *      id: number
+ * becomes
+ *      protected id: number
+ * (there are three data modifiers, public by default, means it is accessible anywhere, 
+ * private, makes the the property only accessible from within the class, 
+ * and last, protected which only accessible within the class and within other classes which inherits it )
+ * our last console.log(oj.id) would not work, 
+ * 
+ */
