@@ -68,3 +68,10 @@ const myBook = {
 // Type Assertion
 let userid = 1;
 let myUserId = userid;
+// Functions
+// the expected data types that will be passed in should be defined,
+// besides, we can also provide data type of the return value
+function addNum(x, y) {
+    return x + y;
+}
+const ad = (x, y) => x + y;

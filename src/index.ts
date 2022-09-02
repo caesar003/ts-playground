@@ -107,3 +107,15 @@ let userid: any = 1;
 
 let myUserId = userid as number;
 
+
+// Functions
+
+// the expected data types that will be passed in should be defined,
+// besides, we can also provide data type of the return value
+function addNum (x: number, y: number){
+    return x + y;
+}
+
+const ad = (x: number, y: number) => x + y;
+
+
