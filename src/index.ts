@@ -52,3 +52,23 @@ friends = [
 let cid: string | number;
 cid = 12;
 cid = "22458e";
+
+// Enum
+enum grades {
+    Bad,
+    Average,
+    Good,
+    Excellent
+}
+
+console.log(grades.Bad);
+// => 0
+
+enum grades2 {
+    Bad = 50,
+    Average = 60,
+    Good = 80,
+    Excellent = 99
+};
+console.log(grades2.Average);
+// => 60

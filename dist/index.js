@@ -33,3 +33,23 @@ friends = [
 let cid;
 cid = 12;
 cid = "22458e";
+// Enum
+var grades;
+(function (grades) {
+    grades[grades["Bad"] = 0] = "Bad";
+    grades[grades["Average"] = 1] = "Average";
+    grades[grades["Good"] = 2] = "Good";
+    grades[grades["Excellent"] = 3] = "Excellent";
+})(grades || (grades = {}));
+console.log(grades.Bad);
+// => 0
+var grades2;
+(function (grades2) {
+    grades2[grades2["Bad"] = 50] = "Bad";
+    grades2[grades2["Average"] = 60] = "Average";
+    grades2[grades2["Good"] = 80] = "Good";
+    grades2[grades2["Excellent"] = 99] = "Excellent";
+})(grades2 || (grades2 = {}));
+;
+console.log(grades2.Average);
+// => 60
