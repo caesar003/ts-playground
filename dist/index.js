@@ -65,3 +65,6 @@ const myBook = {
     year: 2021,
     isBestSeller: 29 / 3 === 12,
 };
+// Type Assertion
+let userid = 1;
+let myUserId = userid;

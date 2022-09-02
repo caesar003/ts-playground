@@ -101,3 +101,9 @@ const myBook: Book = {
     isBestSeller: 29/3 === 12,
 }
 
+ 
+// Type Assertion
+let userid: any = 1;
+
+let myUserId = userid as number;
+
