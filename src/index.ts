@@ -184,3 +184,16 @@ console.log(oj.id);
  * 
  */
 
+
+// Enxtending classess;
+class Employee extends Person {
+    position: string
+    constructor(id: number, name: string, position: string){
+        super(id, name);
+        this.position = position;
+    }
+}
+
+const emp = new Employee(4, "Maria", "Manager");
+
+console.log(emp.register())

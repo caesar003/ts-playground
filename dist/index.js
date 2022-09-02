@@ -104,3 +104,12 @@ console.log(oj.id);
  * our last console.log(oj.id) would not work,
  *
  */
+// Enxtending classess;
+class Employee extends Person {
+    constructor(id, name, position) {
+        super(id, name);
+        this.position = position;
+    }
+}
+const emp = new Employee(4, "Maria", "Manager");
+console.log(emp.register());
